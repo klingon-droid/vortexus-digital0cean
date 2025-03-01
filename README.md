@@ -134,3 +134,4 @@ The application uses two main ports:
 - 4001 for the Telegram bot
 
 If you see port conflicts, check if these ports are already in use on your system and update the port numbers in your .env file if needed.
+Last updated: Sat Mar  1 22:01:25 UTC 2025
