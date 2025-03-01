@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: solana-agent
+    env: node
+    buildCommand: npm install
+    startCommand: npx tsx src/telegram/telegramBot.ts
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 18.x
+      - key: PORT
+        value: 3000
